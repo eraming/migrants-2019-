@@ -30,7 +30,9 @@ body {
   margin: 5px;
   grid-column: 2;
   grid-row: 2;
+
 }
+
 
 hr {
     display: block;
@@ -51,7 +53,6 @@ hr {
 
 
 
-
 /* bars below */
 
 .BarChart-bar-US {
@@ -60,12 +61,22 @@ hr {
   margin: 5px;
   color: #e3c4a8;
 }
+.BarChart-bar-US:hover {
+    transform: perspective(200px) translate3d(5px, 0, 2px);
+    background-color: #000000;
+    transition-duration: 0.4s;
+}
 
 .BarChart-bar-Med {
   background-color: #226089;
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+}
+.BarChart-bar-Med:hover {
+    transform: perspective(200px) translate3d(5px, 0, 2px);
+    background-color: #000000;
+    transition-duration: 0.4s;
 }
 
 .BarChart-bar-MiddleE {
