@@ -1,0 +1,132 @@
+:root {
+    --bg-color: #e3c4a8;
+    --text-color: #000000;
+    --bar-color: #4592af;
+    --graph-color: #226089;
+    --highlight-color: #;
+    --highlight-color-alt: #;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font: #000000;
+    background-color: #e3c4a8;
+}
+
+.GridContainer {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 150px 1fr 200px;
+}
+
+.Header {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.BarChart {
+  padding: 10px;
+  margin: 5px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+hr {
+    display: block;
+    grid-column: 2;
+    grid-row: 3;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid #000000;
+    margin: 0;
+    padding: 2px;
+}
+
+.BarChart-max {
+  display: block;
+  grid-column: 3;
+  grid-row: 3;
+}
+
+
+
+
+/* bars below */
+
+.BarChart-bar-US {
+  background-color: #4592af;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
+
+.BarChart-bar-Med {
+  background-color: #226089;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
+
+.BarChart-bar-MiddleE {
+  background-color: #4592af;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
+
+.BarChart-bar-Europe {
+  background-color: #226089;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
+
+.BarChart-bar-SEAsia {
+  background-color: #4592af;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
+
+.BarChart-bar-SAsia {
+  background-color: #226089;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
+
+.BarChart-bar-SaharanA {
+  background-color: #4592af;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
+
+.BarChart-bar-HornA {
+  background-color: #226089;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
+
+.BarChart-bar-NAfrica {
+  background-color: #4592af;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
+
+.BarChart-bar-SAmerica {
+  background-color: #226089;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
+
+.BarChart-bar-CentralCarr {
+  background-color: #4592af;
+  padding: 8px;
+  margin: 5px;
+  color: #e3c4a8;
+}
