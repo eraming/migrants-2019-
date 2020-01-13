@@ -65,11 +65,12 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-US:hover {
     transform: perspective(200px) translate3d(5px, 0, 2px);
     background-color: #000000;
-    transition-duration: 0.4s;
+
 }
 
 .BarChart-bar-Med {
@@ -77,6 +78,7 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-Med:hover {
     transform: perspective(200px) translate3d(5px, 0, 2px);
@@ -89,11 +91,11 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-MiddleE:hover {
   transform: perspective(200px) translate3d(5px, 0, 2px);
   background-color: #000000;
-  transition-duration: 0.4s;
 }
 
 .BarChart-bar-Europe {
@@ -101,11 +103,11 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-Europe:hover {
   transform: perspective(200px) translate3d(5px, 0, 2px);
   background-color: #000000;
-  transition-duration: 0.4s;
 }
 
 .BarChart-bar-SEAsia {
@@ -113,11 +115,11 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-SEAsia:hover {
   transform: perspective(200px) translate3d(5px, 0, 2px);
   background-color: #000000;
-  transition-duration: 0.4s;
 }
 
 .BarChart-bar-SAsia {
@@ -125,11 +127,11 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-SAsia:hover {
   transform: perspective(200px) translate3d(5px, 0, 2px);
   background-color: #000000;
-  transition-duration: 0.4s;
 }
 
 .BarChart-bar-SaharanA {
@@ -137,11 +139,11 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-SaharanA:hover {
   transform: perspective(200px) translate3d(5px, 0, 2px);
   background-color: #000000;
-  transition-duration: 0.4s;
 }
 
 .BarChart-bar-HornA {
@@ -149,11 +151,11 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-HornA:hover {
   transform: perspective(200px) translate3d(5px, 0, 2px);
   background-color: #000000;
-  transition-duration: 0.4s;
 }
 
 .BarChart-bar-NAfrica {
@@ -161,11 +163,11 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-NAfrica:hover {
   transform: perspective(200px) translate3d(5px, 0, 2px);
   background-color: #000000;
-  transition-duration: 0.4s;
 }
 
 .BarChart-bar-SAmerica {
@@ -173,11 +175,11 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-SAmerica:hover {
   transform: perspective(200px) translate3d(5px, 0, 2px);
   background-color: #000000;
-  transition-duration: 0.4s;
 }
 
 .BarChart-bar-CentralCarr {
@@ -185,9 +187,9 @@ hr {
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
+  transition-duration: 0.4s;
 }
 .BarChart-bar-CentralCarr:hover {
   transform: perspective(200px) translate3d(5px, 0, 2px);
   background-color: #000000;
-  transition-duration: 0.4s;
 }
