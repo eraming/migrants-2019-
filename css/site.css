@@ -17,7 +17,7 @@ body {
 .GridContainer {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
-  grid-template-rows: 150px 1fr 200px;
+  grid-template-rows: 150px 1fr auto;
 }
 
 .Header {
@@ -32,7 +32,6 @@ body {
   grid-row: 2;
 
 }
-
 
 hr {
     display: block;
@@ -51,145 +50,20 @@ hr {
   grid-row: 3;
 }
 
-/* .BarChart-bar {
-  background-color: #4592af;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-} */
-
-/* bars below */
-
-.BarChart-bar-US {
+.BarChart-bar {
   background-color: #4592af;
   padding: 8px;
   margin: 5px;
   color: #e3c4a8;
   transition-duration: 0.4s;
 }
-.BarChart-bar-US:hover {
+
+.BarChart-bar:nth-of-type(odd) {
+    background: #226089;
+}
+
+.BarChart-bar:hover {
     transform: perspective(200px) translate3d(5px, 0, 2px);
     background-color: #000000;
 
-}
-
-.BarChart-bar-Med {
-  background-color: #226089;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-  transition-duration: 0.4s;
-}
-.BarChart-bar-Med:hover {
-    transform: perspective(200px) translate3d(5px, 0, 2px);
-    background-color: #000000;
-    transition-duration: 0.4s;
-}
-
-.BarChart-bar-MiddleE {
-  background-color: #4592af;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-  transition-duration: 0.4s;
-}
-.BarChart-bar-MiddleE:hover {
-  transform: perspective(200px) translate3d(5px, 0, 2px);
-  background-color: #000000;
-}
-
-.BarChart-bar-Europe {
-  background-color: #226089;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-  transition-duration: 0.4s;
-}
-.BarChart-bar-Europe:hover {
-  transform: perspective(200px) translate3d(5px, 0, 2px);
-  background-color: #000000;
-}
-
-.BarChart-bar-SEAsia {
-  background-color: #4592af;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-  transition-duration: 0.4s;
-}
-.BarChart-bar-SEAsia:hover {
-  transform: perspective(200px) translate3d(5px, 0, 2px);
-  background-color: #000000;
-}
-
-.BarChart-bar-SAsia {
-  background-color: #226089;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-  transition-duration: 0.4s;
-}
-.BarChart-bar-SAsia:hover {
-  transform: perspective(200px) translate3d(5px, 0, 2px);
-  background-color: #000000;
-}
-
-.BarChart-bar-SaharanA {
-  background-color: #4592af;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-  transition-duration: 0.4s;
-}
-.BarChart-bar-SaharanA:hover {
-  transform: perspective(200px) translate3d(5px, 0, 2px);
-  background-color: #000000;
-}
-
-.BarChart-bar-HornA {
-  background-color: #226089;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-  transition-duration: 0.4s;
-}
-.BarChart-bar-HornA:hover {
-  transform: perspective(200px) translate3d(5px, 0, 2px);
-  background-color: #000000;
-}
-
-.BarChart-bar-NAfrica {
-  background-color: #4592af;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-  transition-duration: 0.4s;
-}
-.BarChart-bar-NAfrica:hover {
-  transform: perspective(200px) translate3d(5px, 0, 2px);
-  background-color: #000000;
-}
-
-.BarChart-bar-SAmerica {
-  background-color: #226089;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-  transition-duration: 0.4s;
-}
-.BarChart-bar-SAmerica:hover {
-  transform: perspective(200px) translate3d(5px, 0, 2px);
-  background-color: #000000;
-}
-
-.BarChart-bar-CentralCarr {
-  background-color: #4592af;
-  padding: 8px;
-  margin: 5px;
-  color: #e3c4a8;
-  transition-duration: 0.4s;
-}
-.BarChart-bar-CentralCarr:hover {
-  transform: perspective(200px) translate3d(5px, 0, 2px);
-  background-color: #000000;
 }
